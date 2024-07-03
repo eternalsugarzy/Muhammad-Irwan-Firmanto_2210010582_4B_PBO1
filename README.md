@@ -123,6 +123,15 @@ public String getKodeProv (){
         }
     }
 
+public String getKodeDesa(){
+        String kodeDesa = getNik().substring((12));
+        if (kodeDesa.equals("0002")) {
+            return "Desa Jorong";
+        } else {
+            return "Desa Lain";
+        }
+    }
+
 public String getKodeKab(){
         String kodeKab = getNik().substring(2, 4);
         switch (kodeKab) {
@@ -132,6 +141,18 @@ public String getKodeKab(){
                 return "Kabupaten Kotabaru";
             default:
                 return "Kabupaten Banjar";
+        }
+    }
+
+ public String getKodeKec(){
+        String kodeKec = getNik().substring(4, 6);
+        switch (kodeKec) {
+            case "01": 
+                return "Kecamatan Pelaihari";
+            case "02":
+                return "Kecamatan Jorong";
+            default:
+                return "Kecamatan Batulicin";
         }
     }
 ```
