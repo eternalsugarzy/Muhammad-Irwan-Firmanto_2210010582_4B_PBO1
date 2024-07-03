@@ -12,7 +12,7 @@ Aplikasi ini mengimplementasikan beberapa konsep penting dalam pemrograman beror
 
 Berikut adalah bagian kode yang relevan dengan konsep OOP yang dijelaskan:
 
-1. **Class** adalah template atau blueprint dari object. Pada kode ini, `Identitas`, `Identitas`, dan `Main` adalah contoh dari class.
+1. **Class** adalah template atau blueprint dari object. Pada kode ini, `Identitas`, `IdentitasDetail`, dan `Main` adalah contoh dari class.
 
 ```bash
 public class Identitas {
